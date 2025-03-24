@@ -1,4 +1,4 @@
-# 📦 MongoDB - ShoppingWorld
+# MongoDB - ShoppingWorld
 
 ## 📝 Project Overview
 
@@ -17,21 +17,21 @@ To address this, the company is exploring a **NoSQL solution**, particularly **M
 
 ## Data Structure Design
 
-MongoDB schema designed for flexibility, scalability, and performance, using embedded documents to support global business growth.
+MongoDB schema designed for **flexibility**, **scalability**, and **performance**, using embedded documents to support global business growth.
 
 - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/6dc101f2e7feebe00446ec271e23d13afd83de16/src/DesignData)
 
 ## Inserting Data
 
-Use the Mongosh shell to create collections and insert sample data.
+Use the **Mongosh shell** to create collections and insert sample data.
 
-- **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/6dc101f2e7feebe00446ec271e23d13afd83de16/src/DesignData)
+- **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/7d3eb8fc607d82efde9a3b1576c97d8a71c6bcb5/src/InsertData)
 
 ## CRUD Operations on `customers` Collection
 
 This section demonstrates Create, Read, Update, and Delete operations using MongoDB shell commands.
 
-- **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/6dc101f2e7feebe00446ec271e23d13afd83de16/src/DesignData)
+- **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/7d3eb8fc607d82efde9a3b1576c97d8a71c6bcb5/src/CRUD)
 
 
  
