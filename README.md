@@ -17,6 +17,6 @@ To address this, the company is exploring a **NoSQL solution**, particularly **M
 
 ## Data Structure Design
 
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/KandoMusic/tree/1312ac308aaef3e11dfcc0c6b26da638e977c211/src/Layout(App))
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/6dc101f2e7feebe00446ec271e23d13afd83de16/src/DesignData)
 
  
