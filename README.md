@@ -27,4 +27,11 @@ Use the Mongosh shell to create collections and insert sample data.
 
 - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/6dc101f2e7feebe00446ec271e23d13afd83de16/src/DesignData)
 
+## CRUD Operations on `customers` Collection
+
+This section demonstrates Create, Read, Update, and Delete operations using MongoDB shell commands.
+
+- **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/6dc101f2e7feebe00446ec271e23d13afd83de16/src/DesignData)
+
+
  
