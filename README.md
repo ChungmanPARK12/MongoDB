@@ -45,7 +45,7 @@ Although MongoDB is a flexible NoSQL database that allows schema-less design, **
 
 MongoDB uses **JSON Schema validation** to define rules for each collection (like required fields, data types, value ranges, etc.).
 
- - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/7d3eb8fc607d82efde9a3b1576c97d8a71c6bcb5/src/CRUD)
+ - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/f686f750e5a9eabd286b12c3beea851690ab4c9c/src/Validation)
 
 
  
