@@ -56,11 +56,27 @@ MongoDB uses **JSON Schema validation** to define rules for each collection (lik
 ### Aggregation with `$lookup`
 
 Joins `customers` and `shopping_Carts` collections to show cart details for customer with `customerID: 2`.
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/f686f750e5a9eabd286b12c3beea851690ab4c9c/src/Validation)
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/e1f96a4ac7e926a50aa8e7746cb000a8b1d9e20c/src/Aggregation)
 
 ### Indexing on `customers`
 
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/f686f750e5a9eabd286b12c3beea851690ab4c9c/src/Validation)
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/e1f96a4ac7e926a50aa8e7746cb000a8b1d9e20c/src/Indexing)
+
+### Creating `ttlLogs` Collection with Schema Validation
+
+The following command creates a `ttlLogs` collection with **schema validation** using `$jsonSchema`. It ensures that each log entry includes a `loggingDateTime`, `transactionType`, and `logMessage`.
+ - Ensures **data integrity** by enforcing types and required fields.
+ - Helps maintain a consistent structure in `ttlLogs`.
+ - Prepares the collection for use with a **TTL index** (e.g., auto-delete logs after a certain time).
+
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/e1f96a4ac7e926a50aa8e7746cb000a8b1d9e20c/src/Indexing)
+
+
+
+
+
+
+
  
 
 
