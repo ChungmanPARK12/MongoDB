@@ -69,7 +69,7 @@ The following command creates a `ttlLogs` collection with **schema validation** 
  - Helps maintain a consistent structure in `ttlLogs`.
  - Prepares the collection for use with a **TTL index** (e.g., auto-delete logs after a certain time).
 
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/e1f96a4ac7e926a50aa8e7746cb000a8b1d9e20c/src/Indexing)
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/4a90b4457fb5d5d6ad28e213dc6faf52a53cbe00/src/ttlLog)
 
 
 

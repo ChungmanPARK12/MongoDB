@@ -1,4 +1,4 @@
-Example:
+
 ### Create Index
 ```javascript
 db.customers.createIndex({ customerID: 1 });
