@@ -47,5 +47,26 @@ MongoDB uses **JSON Schema validation** to define rules for each collection (lik
 
  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/f686f750e5a9eabd286b12c3beea851690ab4c9c/src/Validation)
 
+## 3.Relation to Query Design, Indexing, and Sharding
+
+- **✅ Query Design**: `$lookup` is part of query design, used to join documents from two collections in a single query.
+- **⚡ Indexing**: To improve performance, indexes should be added on `customerID` in both `customers` and `shopping_Carts` collections.
+- **🌐 Sharding/Partitioning**: For large datasets, MongoDB sharding can distribute collections across shards, but `$lookup` can be expensive unless both collections are sharded on the **same key** (e.g., `customerID`).
+
+### Aggregation with `$lookup`
+
+Joins `customers` and `shopping_Carts` collections to show cart details for customer with `customerID: 2`.
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/f686f750e5a9eabd286b12c3beea851690ab4c9c/src/Validation)
+
+### Indexing on `customers`
+
+  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/f686f750e5a9eabd286b12c3beea851690ab4c9c/src/Validation)
+ 
+
+
+
+
+
+
 
  
