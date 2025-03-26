@@ -71,6 +71,15 @@ The following command creates a `ttlLogs` collection with **schema validation** 
 
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/b0d517ee442a678dd03653d441872363aa177f82/src/ttlLog)
 
+## 4.User Access Control
+
+ Grants the user administrative privilegs across all database:
+  - `userAdminAnyDatabase`: Create/manage users
+  - `readWriteAnyDatabase`: Read/write access to all DBs
+  - `dbAdminAnyDatabase`: Admin functions like index creation
+  
+    - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/b0d517ee442a678dd03653d441872363aa177f82/src/ttlLog)
+
 
 
 
