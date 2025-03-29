@@ -22,13 +22,13 @@ To address this, the company is exploring a **NoSQL solution**, particularly **M
 - **MongoDB Compass** – For visualizing collections, documents, indexes, and schema validation.
 
 
-## 1.Data Structure Design
+### 1.Data Structure Design
 
 MongoDB schema designed for **flexibility**, **scalability**, and **performance**, using embedded documents to support global business growth.
 
 - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/6dc101f2e7feebe00446ec271e23d13afd83de16/src/DesignData)
 
-## 2.Inserting Data
+### 2.Inserting Data
 
 Use the **Mongosh shell** to create collections and insert sample data.
 
@@ -54,7 +54,7 @@ MongoDB uses **JSON Schema validation** to define rules for each collection (lik
 
  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/f686f750e5a9eabd286b12c3beea851690ab4c9c/src/Validation)
 
-## 3.Relation to Query Design, Indexing, and Sharding
+### 3.Relation to Query Design, Indexing, and Sharding
 
 - **✅ Query Design**: `$lookup` is part of query design, used to join documents from two collections in a single query.
 - **⚡ Indexing**: To improve performance, indexes should be added on `customerID` in both `customers` and `shopping_Carts` collections.
@@ -78,7 +78,7 @@ The following command creates a `ttlLogs` collection with **schema validation** 
 
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/b0d517ee442a678dd03653d441872363aa177f82/src/ttlLog)
 
-## 4.User Access Control
+### 4.User Access Control
 
  Grants the user administrative privilegs across all database:
   - `userAdminAnyDatabase`: Create/manage users
