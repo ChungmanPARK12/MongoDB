@@ -87,6 +87,15 @@ The following command creates a `ttlLogs` collection with **schema validation** 
 
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/6d92d0014b92eacb5381169a0fc7bd43fcda9521/src/CreateUser)
 
+## 📋 Project Summary
+
+This MongoDB project for **ShoppingWorld** demonstrates how a traditional relational system can be transformed into a flexible, scalable NoSQL solution. Key features include schema design, data insertion, aggregation queries, indexing, user authentication, and TTL log management — all implemented using **Mongo Shell** and **MongoDB Compass**.
+
+The prototype showcases how MongoDB can effectively support modern e-commerce platforms with dynamic data structures and high-performance query handling.
+
+## Thank you
+Thank you for visiting my github :)
+
 
 
 
