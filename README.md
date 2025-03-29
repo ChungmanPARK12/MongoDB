@@ -1,4 +1,5 @@
 # MongoDB - ShoppingWorld
+![Image](https://github.com/user-attachments/assets/f9f680b3-1913-4024-a805-5a8f09141c37)
 
 ## 📝 Project Overview
 
@@ -14,6 +15,12 @@ To address this, the company is exploring a **NoSQL solution**, particularly **M
 - Handle semi-structured or unstructured data, where transactions may vary in data fields.
 - Maintain ACID compliance, along with availability and partition tolerance.
 - Develop a MongoDB-based prototype as a pilot project before full implementation.
+
+## 🛠️ Tools Used
+
+- **Mongo Shell (mongosh)** – For running database commands and queries.
+- **MongoDB Compass** – For visualizing collections, documents, indexes, and schema validation.
+
 
 ## 1.Data Structure Design
 
