@@ -1,13 +1,13 @@
 # MongoDB - ShoppingWorld
 ![Image](https://github.com/user-attachments/assets/f9f680b3-1913-4024-a805-5a8f09141c37)
 
-## 📝 Project Overview
+## Project Overview
 
 **ShoppingWorld** is an online shopping company headquartered in **South Australia**, using a **MySQL relational database**. As the business expands globally, the current system is facing **performance issues**, especially with enquiries related to **customers, suppliers, and shopping details**.
 
 To address this, the company is exploring a **NoSQL solution**, particularly **MongoDB**, inspired by the success of its **sister company in the US**.
 
-## 💡 Key Objectives
+## Key Objectives
 
 - Improve performance for frequent customer and sales staff enquiries.
 - Enable scalable solutions to meet the growing demand and data volume.
@@ -16,7 +16,7 @@ To address this, the company is exploring a **NoSQL solution**, particularly **M
 - Maintain ACID compliance, along with availability and partition tolerance.
 - Develop a MongoDB-based prototype as a pilot project before full implementation.
 
-## 🛠️ Tools Used
+## Tools Used
 
 - **Mongo Shell (mongosh)** – For running database commands and queries.
 - **MongoDB Compass** – For visualizing collections, documents, indexes, and schema validation.
@@ -56,9 +56,9 @@ MongoDB uses **JSON Schema validation** to define rules for each collection (lik
 
 ### 3.Relation to Query Design, Indexing, and Sharding
 
-- **✅ Query Design**: `$lookup` is part of query design, used to join documents from two collections in a single query.
-- **⚡ Indexing**: To improve performance, indexes should be added on `customerID` in both `customers` and `shopping_Carts` collections.
-- **🌐 Sharding/Partitioning**: For large datasets, MongoDB sharding can distribute collections across shards, but `$lookup` can be expensive unless both collections are sharded on the **same key** (e.g., `customerID`).
+- **Query Design**: `$lookup` is part of query design, used to join documents from two collections in a single query.
+- **Indexing**: To improve performance, indexes should be added on `customerID` in both `customers` and `shopping_Carts` collections.
+- **Sharding/Partitioning**: For large datasets, MongoDB sharding can distribute collections across shards, but `$lookup` can be expensive unless both collections are sharded on the **same key** (e.g., `customerID`).
 
 ### Aggregation with `$lookup`
 
@@ -87,7 +87,7 @@ The following command creates a `ttlLogs` collection with **schema validation** 
 
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/6d92d0014b92eacb5381169a0fc7bd43fcda9521/src/CreateUser)
 
-## 📋 Project Summary
+## Project Summary
 
 This MongoDB project for **ShoppingWorld** demonstrates how a traditional relational system can be transformed into a flexible, scalable NoSQL solution. Key features include schema design, data insertion, aggregation queries, indexing, user authentication, and TTL log management — all implemented using **Mongo Shell** and **MongoDB Compass**.
 
