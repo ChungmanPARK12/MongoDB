@@ -73,8 +73,6 @@ Below is sample data inserted into MongoDB collections such as,
 
 `db.suppliers.insertMany()`
 
-<br />
-
 <img
   src="https://github.com/user-attachments/assets/f779e242-b4cc-4791-b6eb-8586563ce311"
   width="600"
@@ -91,14 +89,30 @@ Below is sample data inserted into MongoDB collections such as,
   </tbody>
 </table>
 
-
 ---
 
-### shopping_Carts - Sample insert results(5 documents)
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center">
+        shopping_Carts – Sample insert results (5 documents)
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
 
 `db.shopping_Carts.insertMany()`
 
-<img width="600" height="850" alt="Image" src="https://github.com/user-attachments/assets/529f431b-4714-41f7-a7cc-4cb41ec4868d" />
+<img
+  src="https://github.com/user-attachments/assets/529f431b-4714-41f7-a7cc-4cb41ec4868d"
+  width="600"
+  alt="Shopping carts sample insert results (5 documents)"
+/>
+
+  </tbody>
+</table>
 
 ---
 
