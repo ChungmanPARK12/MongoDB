@@ -29,19 +29,33 @@ Below is sample data inserted into MongoDB collections such as,
   alt="Customers sample insert result (documents 3–4)"
 />
 
-      </td>
-    </tr>
   </tbody>
 </table>
 
-
 ---
 
-### items - Sample insert results(5 documents)
+<table>
+  <thead>
+    <tr>
+      <th align="left">
+        items – Sample insert results (5 documents)
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
 
-`db.items.insertMany()`
+<code>db.items.insertMany()</code>
 
-<img width="450" height="650" alt="Image" src="https://github.com/user-attachments/assets/3ec9895c-2ec3-435f-9516-1c998193c479" />
+<img
+  src="https://github.com/user-attachments/assets/3ec9895c-2ec3-435f-9516-1c998193c479"
+  width="450"
+  alt="Items sample insert results (5 documents)"
+/>
+
+  </tbody>
+</table>
 
 ---
 
