@@ -7,21 +7,31 @@ Below is sample data inserted into MongoDB collections such as,
 
 `db.customers.insertMany()`
 
-<img
-  src="https://github.com/user-attachments/assets/6fa12b03-3633-48e1-9e4e-e9d316c439af"
-  width="600"
-  style="border:1px solid #d0d7de; border-radius:6px; padding:4px;"
-  alt="Customers sample insert result (documents 1–2)"
-/>
+<table>
+  <tr>
+    <td>
+      <img
+        src="https://github.com/user-attachments/assets/6fa12b03-3633-48e1-9e4e-e9d316c439af"
+        width="600"
+        alt="Customers sample insert result (documents 1–2)"
+      />
+    </td>
+  </tr>
+</table>
 
 ---
 
-<img
-  src="https://github.com/user-attachments/assets/e9f1b30a-a946-4cfd-84d4-12e03f35ded7"
-  width="600"
-  style="border:1px solid #d0d7de; border-radius:6px; padding:4px;"
-  alt="Customers sample insert result (documents 3–4)"
-/>
+<table>
+  <tr>
+    <td>
+      <img
+        src="https://github.com/user-attachments/assets/e9f1b30a-a946-4cfd-84d4-12e03f35ded7"
+        width="600"
+        alt="Customers sample insert result (documents 3–4)"
+      />
+    </td>
+  </tr>
+</table>
 
 ---
 
