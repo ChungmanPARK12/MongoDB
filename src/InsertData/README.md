@@ -3,35 +3,37 @@
 Below is sample data inserted into MongoDB collections such as, 
 **customers**, **items**, **shopping_carts**, and **suppliers**.
 
-### customers – Sample insert results (4 documents)
+<table>
+  <thead>
+    <tr>
+      <th align="left">
+        customers – Sample insert results (4 documents)
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
 
 `db.customers.insertMany()`
 
-<table>
-  <tr>
-    <td>
-      <img
-        src="https://github.com/user-attachments/assets/6fa12b03-3633-48e1-9e4e-e9d316c439af"
-        width="600"
-        alt="Customers sample insert result (documents 1–2)"
-      />
-    </td>
-  </tr>
+<img
+  src="https://github.com/user-attachments/assets/6fa12b03-3633-48e1-9e4e-e9d316c439af"
+  width="600"
+  alt="Customers sample insert result (documents 1–2)"
+/>
+
+<img
+  src="https://github.com/user-attachments/assets/e9f1b30a-a946-4cfd-84d4-12e03f35ded7"
+  width="600"
+  alt="Customers sample insert result (documents 3–4)"
+/>
+
+      </td>
+    </tr>
+  </tbody>
 </table>
 
----
-
-<table>
-  <tr>
-    <td>
-      <img
-        src="https://github.com/user-attachments/assets/e9f1b30a-a946-4cfd-84d4-12e03f35ded7"
-        width="600"
-        alt="Customers sample insert result (documents 3–4)"
-      />
-    </td>
-  </tr>
-</table>
 
 ---
 
@@ -48,6 +50,8 @@ Below is sample data inserted into MongoDB collections such as,
 `db.suppliers.insertMany()`
 
 <img width="600" height="700" alt="Image" src="https://github.com/user-attachments/assets/f779e242-b4cc-4791-b6eb-8586563ce311" />
+
+---
 
 <img width="600" height="700" alt="Image" src="https://github.com/user-attachments/assets/4fbef62f-a018-443f-9efa-1a17985253fb" />
 
