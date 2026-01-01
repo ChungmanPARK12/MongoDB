@@ -36,6 +36,18 @@
 
 ---
 
+### items Collection
+```json
+{
+  "_id": ObjectId,
+  "itemId": int,
+  "itemName": String,
+  "price": Decimal,
+  "qtyHand": int,
+  "supplierId": int
+}
+```
+
 ### suppliers Collection
 ```json
 {
@@ -84,18 +96,12 @@
   ]
 }
 ```
-
 ---
 
-### items Collection
-```json
-{
-  "_id": ObjectId,
-  "itemId": int,
-  "itemName": String,
-  "price": Decimal,
-  "qtyHand": int,
-  "supplierId": int
-}
-```
+
+
+
+
+
+
 

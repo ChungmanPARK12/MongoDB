@@ -13,104 +13,25 @@ Below is sample data inserted into MongoDB collections such as,
 
 <img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/e9f1b30a-a946-4cfd-84d4-12e03f35ded7" />
 
-### items - Sample insert results(4 documents)
+### items - Sample insert results(5 documents)
 
 `db.items.insertMany()`
 
 <img width="450" height="650" alt="Image" src="https://github.com/user-attachments/assets/3ec9895c-2ec3-435f-9516-1c998193c479" />
 
-### shopping_Carts - Sample insert results(4 documents)
+### suppliers - Sample insert results(4 documents)
+
+`db.suppliers.insertMany()`
+
+<img width="600" height="700" alt="Image" src="https://github.com/user-attachments/assets/f779e242-b4cc-4791-b6eb-8586563ce311" />
+
+<img width="600" height="700" alt="Image" src="https://github.com/user-attachments/assets/4fbef62f-a018-443f-9efa-1a17985253fb" />
+
+### shopping_Carts - Sample insert results(5 documents)
 
 `db.shopping_Carts.insertMany()`
 
-<img width="600" height="800" alt="Image" src="https://github.com/user-attachments/assets/529f431b-4714-41f7-a7cc-4cb41ec4868d" />
-
-
-
-```javascript
-// Insert into suppliers collection
-db.suppliers.insertOne({
-  supplierID: 1,
-  supplierName: 'Garden Grower',
-  email: 'business@gardensupplier.com.au',
-  contactPhoneNo: '08-27732420',
-  supplier_addresses: [
-    {
-      supplierAddressID: 1,
-      addressType: 'Business',
-      street: '1 King Street',
-      city: 'Adelaide',
-      postalCode: '5000',
-      state: 'SA',
-      country: 'Australia',
-      supplierID: 1
-    },
-    {
-      supplierAddressID: 2,
-      addressType: 'Postal',
-      street: 'Box 100 Grote Street Mail Center',
-      city: 'Adelaide',
-      postalCode: '5000',
-      state: 'SA',
-      country: 'Australia',
-      supplierID: 1
-    }
-  ],
-  items_supplied: [
-    {
-      itemID: 1,
-      itemName: 'Slow release fertilliser 20kg',
-      price: '40.00'
-    },
-    {
-      itemID: 2,
-      itemName: 'Organic fertilliser 20kg',
-      price: '50.00'
-    }
-  ]
-});
-
-db.suppliers.insertOne({
-  supplierID: 2,
-  supplierName: 'Home Improvement',
-  email: 'office@homeimprovement.com.au',
-  contactPhoneNo: '08-82544665',
-  supplier_addresses: [
-    {
-      supplierAddressID: 3,
-      addressType: 'Business',
-      street: '2 Queen Street',
-      city: 'Melbourne',
-      postalCode: '3000',
-      state: 'VIC',
-      country: 'Australia',
-      supplierID: 2
-    },
-    {
-      supplierAddressID: 4,
-      addressType: 'Postal',
-      street: 'Box 200 Bourke Street Post Office',
-      city: 'Melbourne',
-      postalCode: '3000',
-      state: 'VIC',
-      country: 'Australia',
-      supplierID: 2
-    }
-  ],
-  items_supplied: [
-    {
-      itemID: 3,
-      itemName: 'METHOD wall cabinet',
-      price: '400.00'
-    },
-    {
-      itemID: 4,
-      itemName: 'Applaro outdoor sofa set', 
-      price: '1500.00'
-    }
-  ]
-});
-```
+<img width="600" height="850" alt="Image" src="https://github.com/user-attachments/assets/529f431b-4714-41f7-a7cc-4cb41ec4868d" />
 
 ---
 
