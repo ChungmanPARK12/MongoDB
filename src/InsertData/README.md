@@ -5,7 +5,6 @@ Below is sample data inserted into MongoDB collections such as,
 
 ### customers - Sample insert results(4 documents)
 
-Insert into customers collection
 `db.customers.insertMany()`
 
 <img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/6fa12b03-3633-48e1-9e4e-e9d316c439af" />
@@ -16,96 +15,17 @@ Insert into customers collection
 
 ### items - Sample insert results(4 documents)
 
-Insert into items collection
 `db.items.insertMany()`
 
-<img width="500" height="650" alt="Image" src="https://github.com/user-attachments/assets/3ec9895c-2ec3-435f-9516-1c998193c479" />
+<img width="450" height="650" alt="Image" src="https://github.com/user-attachments/assets/3ec9895c-2ec3-435f-9516-1c998193c479" />
 
-```javascript
-// Insert into shopping_Carts collection
-db.shopping_Carts.insertOne({
-  cartID: 1,
-  cartDateTime: '2022-02-20 12:00:00',
-  deliveryInstruction: 'Deliver to business address',
-  deliveredOrNot: '1',
-  deliveryDate: '2022-02-22',
-  ratingFromCustomer: '5',
-  customerID: 1,
-  cart_item: [
-    {
-      cartID: 1,
-      itemID: 1,
-      qtyOrdered: 2
-    },
-    {
-      cartID: 1,
-      itemID: 2,
-      qtyOrdered: 3
-    }
-  ]
-});
+### shopping_Carts - Sample insert results(4 documents)
 
-db.shopping_Carts.insertOne({
-  cartID: 2,
-  cartDateTime: '2022-02-20 14:30:00',
-  deliveryInstruction: 'Deliver to personal address',
-  deliveredOrNot: '1',
-  deliveryDate: '2022-02-23',
-  ratingFromCustomer: '4',
-  customerID: 2,
-  cart_item: [
-    {
-      cartID: 2,
-      itemID: 3,
-      qtyOrdered: 1
-    },
-    {
-      cartID: 2,
-      itemID: 4,
-      qtyOrdered: 1
-    },
-    {
-      cartID: 2,
-      itemID: 1,
-      qtyOrdered: 3
-    }
-  ]
-});
+`db.shopping_Carts.insertMany()`
 
-db.shopping_Carts.insertOne({
-  cartID: 3,
-  cartDateTime: ISODate('2022-02-22 16:00:00'),
-  deliveryInstruction: null,
-  deliveredOrNot: '0',
-  deliveryDate: null,
-  ratingFromCustomer: null,
-  customerID: 2,
-  cart_item: [
-    {
-      cartID: 3,
-      itemID: 1,
-      qtyOrdered: 4
-    }
-  ]
-});
+<img width="600" height="800" alt="Image" src="https://github.com/user-attachments/assets/529f431b-4714-41f7-a7cc-4cb41ec4868d" />
 
-db.shopping_Carts.insertOne({
-  cartID: 4,
-  cartDateTime: ISODate('2022-02-23 09:30:00'),
-  deliveryInstruction: 'Deliver to delivery address',
-  deliveredOrNot: '0',
-  deliveryDate: null,
-  ratingFromCustomer: null,
-  customerID: 3,
-  cart_item: [
-    {
-      cartID: 4,
-      itemID: 2,
-      qtyOrdered: 2
-    }
-  ]
-});
-```
+
 
 ```javascript
 // Insert into suppliers collection
