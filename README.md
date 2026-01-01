@@ -1,20 +1,20 @@
 # MongoDB - ShoppingWorld
 ![Image](https://github.com/user-attachments/assets/f9f680b3-1913-4024-a805-5a8f09141c37)
 
-## Project Overview
+## Overview
 
 **ShoppingWorld** is an online shopping company headquartered in **South Australia**, using a **MySQL relational database**. As the business expands globally, the current system is facing **performance issues**, especially with enquiries related to **customers, suppliers, and shopping details**.
 
 To address this, the company is exploring a **NoSQL solution**, particularly **MongoDB**, inspired by the success of its **sister company in the US**.
 
-## Key Objectives
+## Purpose
 
-- Improve performance for frequent customer and sales staff enquiries.
-- Enable scalable solutions to meet the growing demand and data volume.
-- Support distributed offices in various countries for localized support.
-- Handle semi-structured or unstructured data, where transactions may vary in data fields.
-- Maintain ACID compliance, along with availability and partition tolerance.
-- Develop a MongoDB-based prototype as a pilot project before full implementation.
+This learning project focuses on understanding how **MongoDB** can be used to explore common limitations of relational databases.  
+
+- Explore how document-based data models support **flexibility and scalability**
+- Examine performance improvements for **frequent read-heavy queries**
+- Practice core MongoDB features such as **CRUD operations, aggregation, and indexing**
+- Build a small **prototype** to evaluate MongoDB as an alternative data store
 
 ## Tools Used
 
@@ -42,15 +42,9 @@ This section demonstrates Create, Read, Update, and Delete operations using Mong
 
 ### Schema Validation on `customers` Collection
 
-Although MongoDB is a flexible NoSQL database that allows schema-less design, **schema validation** is important for the following reasons:
+### Schema Validation on `customers` Collection
 
-- **Data Consistency**: Ensures documents follow a defined structure and contain required fields.
-- **Error Prevention**: Reduces bugs caused by missing or incorrect data types.
-- **Data Integrity**: Prevents invalid data from being inserted or updated.
-- **Reliable Queries**: Helps developers write more predictable queries and aggregations.
-- **Security**: Blocks untrusted users from injecting malformed or harmful data.
-
-MongoDB uses **JSON Schema validation** to define rules for each collection (like required fields, data types, value ranges, etc.).
+Although MongoDB allows schema-less documents, JSON Schema validation is applied to the `customers` collection to maintain basic data consistency.
 
  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/f686f750e5a9eabd286b12c3beea851690ab4c9c/src/Validation)
 
