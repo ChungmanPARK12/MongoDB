@@ -3,11 +3,12 @@
 Below is sample data inserted into MongoDB collections such as, 
 **customers**, **items**, **shopping_carts**, and **suppliers**.
 
+### customers - Sample insert results(4 documents)
+
 ```javascript
 // Insert into customers collection
 db.customers.insertMany()
 ```
-### Customers - Sample insert results(4 documents)
 
 <img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/6fa12b03-3633-48e1-9e4e-e9d316c439af" />
 
@@ -15,39 +16,14 @@ db.customers.insertMany()
 
 <img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/e9f1b30a-a946-4cfd-84d4-12e03f35ded7" />
 
+### items - Sample insert results(4 documents)
+
 ```javascript
-// Insert into items collection
-db.items.insertMany([
-  {
-    itemID: 1,
-    itemName: 'Slow release fertiliser 20kg',
-    price: 40.00,
-    qtyOnHand: 10,
-    supplierID: 1
-  },
-  {
-    itemID: 2,
-    itemName: 'Organic fertiliser 20kg',
-    price: 50.00,
-    qtyOnHand: 20,
-    supplierID: 1
-  },
-  {
-    itemID: 3,
-    itemName: 'METHOD wall cabinet',
-    price: 400.00,
-    qtyOnHand: 30,
-    supplierID: 2
-  },
-  {
-    itemID: 4,
-    itemName: 'Applaro outdoor sofa set',
-    price: 1500.00,
-    qtyOnHand: 40,
-    supplierID: 2
-  }
-]);
+// Insert into customers collection
+db.items.insertMany()
 ```
+
+<img width="500" height="650" alt="Image" src="https://github.com/user-attachments/assets/3ec9895c-2ec3-435f-9516-1c998193c479" />
 
 ```javascript
 // Insert into shopping_Carts collection

@@ -25,19 +25,19 @@ This learning project focuses on understanding how **MongoDB** can be used to ex
 
 MongoDB schema designed for **flexibility**, **scalability**, and **performance**, using embedded documents to support global business growth.
 
-- **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/6dc101f2e7feebe00446ec271e23d13afd83de16/src/DesignData)
+- [View result](https://github.com/ChungmanPARK12/MongoDB/tree/6dc101f2e7feebe00446ec271e23d13afd83de16/src/DesignData)
 
 ### 2.Inserting Data
 
 Use the **Mongosh shell** to create collections and insert sample data.
 
-- **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/7d3eb8fc607d82efde9a3b1576c97d8a71c6bcb5/src/InsertData)
+- [View result](src/InsertData)
 
 ### CRUD Operations on `customers` Collection
 
 This section demonstrates **Create**, **Read**, **Update**, and **Delete** operations using MongoDB shell commands.
 
-- **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/7d3eb8fc607d82efde9a3b1576c97d8a71c6bcb5/src/CRUD)
+- [View result](https://github.com/ChungmanPARK12/MongoDB/tree/7d3eb8fc607d82efde9a3b1576c97d8a71c6bcb5/src/CRUD)
 
 ### Schema Validation on `customers` Collection
 
