@@ -48,6 +48,8 @@
 }
 ```
 
+---
+
 ### suppliers Collection
 ```json
 {
