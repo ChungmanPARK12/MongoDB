@@ -5,10 +5,8 @@ Below is sample data inserted into MongoDB collections such as,
 
 ### customers - Sample insert results(4 documents)
 
-```javascript
-// Insert into customers collection
-db.customers.insertMany()
-```
+Insert into customers collection
+`db.customers.insertMany()`
 
 <img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/6fa12b03-3633-48e1-9e4e-e9d316c439af" />
 
@@ -18,10 +16,8 @@ db.customers.insertMany()
 
 ### items - Sample insert results(4 documents)
 
-```javascript
-// Insert into customers collection
-db.items.insertMany()
-```
+Insert into items collection
+`db.items.insertMany()`
 
 <img width="500" height="650" alt="Image" src="https://github.com/user-attachments/assets/3ec9895c-2ec3-435f-9516-1c998193c479" />
 
