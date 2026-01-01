@@ -3,10 +3,10 @@
 Below is sample data inserted into MongoDB collections such as, 
 **customers**, **items**, **shopping_carts**, and **suppliers**.
 
-<table align="center">
+<table>
   <thead>
     <tr>
-      <th align="left">
+      <th align="center">
         customers – Sample insert results (4 documents)
       </th>
     </tr>
@@ -37,7 +37,7 @@ Below is sample data inserted into MongoDB collections such as,
 <table align="center">
   <thead>
     <tr>
-      <th align="left">
+      <th align="center">
         items – Sample insert results (5 documents)
       </th>
     </tr>
