@@ -1,103 +1,19 @@
-## 🧪 Sample Data Insertion
+## Sample Data Insertion
 
-Below is the sample data used for inserting records into MongoDB collections such as `customers`, `items`, `shopping_Carts`, and `suppliers`.
+Below is sample data inserted into MongoDB collections such as, 
+**customers**, **items**, **shopping_carts**, and **suppliers**.
 
 ```javascript
 // Insert into customers collection
-db.customers.insertOne({
-  customerID: 1,
-  firstName: 'John',
-  lastName: 'Brown',
-  email: 'jbrown100@yahoo.com',
-  annualSpend: 100.00,
-  phones: [
-    {
-      phoneID: 1,
-      phoneNumber: '0427788128',
-      phoneType: 'Personal',
-      customerID: 1
-    }
-  ],
-  customerAddresses: [
-    {
-      customerAddressID: 1,
-      addressType: 'Business',
-      street: '1st street',
-      city: 'Adelaide',
-      postCode: '5000',
-      state: 'SA',
-      country: 'Australia',
-      customerID: 1
-    }
-  ],
-  interest: [
-    {
-      interestID: 1,
-      interestName: 'furniture',
-      customerID: 1
-    }
-  ]
-});
-
-db.customers.insertOne({
-  customerID: 2,
-  firstName: 'Jack',
-  lastName: 'White',
-  email: 'jwhite200@yahoo.com',
-  annualSpend: 200.00,
-  phones: [
-    {
-      phoneID: 2,
-      phoneNumber: '0414237921',
-      phoneType: 'Personal',
-      customerID: 2
-    },
-    {
-      phoneID: 3,
-      phoneNumber: '08-81091122',
-      phoneType: 'Business',
-      customerID: 2
-    }
-  ],
-  customerAddresses: [
-    {
-      customerAddressID: 2,
-      addressType: 'Personal',
-      street: '2nd Street',
-      city: 'Melbourne',
-      postCode: '3001',
-      state: 'VIC',
-      country: 'Australia',
-      customerID: 2
-    }
-  ]
-});
-
-db.customers.insertOne({
-  customerID: 3,
-  firstName: 'Jill',
-  lastName: 'Black',
-  email: 'jblack300@yahoo.com',
-  annualSpend: 300.00,
-  phones: [
-    {
-      phoneID: 4,
-      phoneNumber: '08-85678888',
-      phoneType: 'Business',
-      customerID: 3
-    }
-  ],
-  customerAddresses: [
-    {
-      customerAddressID: 5,
-      addressType: 'Postal',
-      street: 'Box 400 Blackwood Post Office',
-      city: 'Blackwood',
-      postCode: '5051'
-    }
-  ]
-});
+db.customers.insertMany()
 ```
+### Customers - Sample insert results(4 documents)
+
+<img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/6fa12b03-3633-48e1-9e4e-e9d316c439af" />
+
+--- 
+
+<img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/e9f1b30a-a946-4cfd-84d4-12e03f35ded7" />
 
 ```javascript
 // Insert into items collection
