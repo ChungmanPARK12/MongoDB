@@ -3,7 +3,7 @@
 Below is sample data inserted into MongoDB collections such as, 
 **customers**, **items**, **shopping_carts**, and **suppliers**.
 
-<table>
+<table align="center">
   <thead>
     <tr>
       <th align="left">
@@ -34,7 +34,7 @@ Below is sample data inserted into MongoDB collections such as,
 
 ---
 
-<table>
+<table align="center">
   <thead>
     <tr>
       <th align="left">
@@ -46,7 +46,7 @@ Below is sample data inserted into MongoDB collections such as,
     <tr>
       <td>
 
-<code>db.items.insertMany()</code>
+`db.items.insertMany()`
 
 <img
   src="https://github.com/user-attachments/assets/3ec9895c-2ec3-435f-9516-1c998193c479"
@@ -59,15 +59,38 @@ Below is sample data inserted into MongoDB collections such as,
 
 ---
 
-### suppliers - Sample insert results(4 documents)
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center">
+        suppliers – Sample insert results (4 documents)
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
 
 `db.suppliers.insertMany()`
 
-<img width="600" height="700" alt="Image" src="https://github.com/user-attachments/assets/f779e242-b4cc-4791-b6eb-8586563ce311" />
+<br />
 
----
+<img
+  src="https://github.com/user-attachments/assets/f779e242-b4cc-4791-b6eb-8586563ce311"
+  width="600"
+  alt="Suppliers sample insert result (documents 1–2)"
+/>
 
-<img width="600" height="700" alt="Image" src="https://github.com/user-attachments/assets/4fbef62f-a018-443f-9efa-1a17985253fb" />
+<img
+  src="https://github.com/user-attachments/assets/4fbef62f-a018-443f-9efa-1a17985253fb"
+  width="600"
+  alt="Suppliers sample insert result (documents 3–4)"
+/>
+
+
+  </tbody>
+</table>
+
 
 ---
 
