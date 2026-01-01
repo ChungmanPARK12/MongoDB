@@ -42,8 +42,6 @@ This section demonstrates Create, Read, Update, and Delete operations using Mong
 
 ### Schema Validation on `customers` Collection
 
-### Schema Validation on `customers` Collection
-
 Although MongoDB allows schema-less documents, JSON Schema validation is applied to the `customers` collection to maintain basic data consistency.
 
  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/f686f750e5a9eabd286b12c3beea851690ab4c9c/src/Validation)
