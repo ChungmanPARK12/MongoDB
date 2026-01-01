@@ -12,7 +12,6 @@ To address this, the company is exploring a **NoSQL solution**, particularly **M
 This learning project focuses on understanding how **MongoDB** can be used to explore common limitations of relational databases.  
 
 - Explore how document-based data models support **flexibility and scalability**
-- Examine performance improvements for **frequent read-heavy queries**
 - Practice core MongoDB features such as **CRUD operations, aggregation, and indexing**
 - Build a small **prototype** to evaluate MongoDB as an alternative data store
 
@@ -36,21 +35,21 @@ Use the **Mongosh shell** to create collections and insert sample data.
 
 ### CRUD Operations on `customers` Collection
 
-This section demonstrates Create, Read, Update, and Delete operations using MongoDB shell commands.
+This section demonstrates **Create**, **Read**, **Update**, and **Delete** operations using MongoDB shell commands.
 
 - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/7d3eb8fc607d82efde9a3b1576c97d8a71c6bcb5/src/CRUD)
 
 ### Schema Validation on `customers` Collection
 
-Although MongoDB allows schema-less documents, JSON Schema validation is applied to the `customers` collection to maintain basic data consistency.
+The `customers` collection uses JSON Schema validation to enforce minimal data consistency.
 
  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/f686f750e5a9eabd286b12c3beea851690ab4c9c/src/Validation)
 
 ### 3.Relation to Query Design, Indexing, and Sharding
 
-- **Query Design**: `$lookup` is part of query design, used to join documents from two collections in a single query.
-- **Indexing**: To improve performance, indexes should be added on `customerID` in both `customers` and `shopping_Carts` collections.
-- **Sharding/Partitioning**: For large datasets, MongoDB sharding can distribute collections across shards, but `$lookup` can be expensive unless both collections are sharded on the **same key** (e.g., `customerID`).
+- **Query Design**: Uses `$lookup` to join documents from multiple collections.
+- **Indexing**: Indexes are added on `customerID` in both `customers` and `shopping_Carts` to improve query performance.
+- **Sharding/Partitioning**: Sharding distributes large datasets, with `$lookup` performing best when collections share the same shard key (e.g., `customerID`).
 
 ### Aggregation with `$lookup`
 
@@ -63,10 +62,7 @@ Joins `customers` and `shopping_Carts` collections to show cart details for cust
 
 ### Creating `ttlLogs` Collection with Schema Validation
 
-The following command creates a `ttlLogs` collection with **schema validation** using `$jsonSchema`. It ensures that each log entry includes a `loggingDateTime`, `transactionType`, and `logMessage`.
- - Ensures **data integrity** by enforcing types and required fields.
- - Helps maintain a consistent structure in `ttlLogs`.
- - Prepares the collection for use with a **TTL index** (e.g., auto-delete logs after a certain time).
+This section demonstrates how a `ttlLogs` collection is defined with schema validation and prepared for use with a TTL index.
 
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/b0d517ee442a678dd03653d441872363aa177f82/src/ttlLog)
 
@@ -79,14 +75,10 @@ The following command creates a `ttlLogs` collection with **schema validation** 
 
   - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/6d92d0014b92eacb5381169a0fc7bd43fcda9521/src/CreateUser)
 
-## Project Summary
+## Summary
 
-This MongoDB project for **ShoppingWorld** demonstrates how a traditional relational system can be transformed into a flexible, scalable NoSQL solution. Key features include schema design, data insertion, aggregation queries, indexing, user authentication, and TTL log management — all implemented using **Mongo Shell** and **MongoDB Compass**.
+This project explores MongoDB through a ShoppingWorld case study, focusing on schema design, querying, indexing, and access control as part of a learning-driven NoSQL prototype.
 
-The prototype showcases how MongoDB can effectively support modern e-commerce platforms with dynamic data structures and high-performance query handling.
-
-## Thank you
-Thank you for visiting my github :)
 
 
 
