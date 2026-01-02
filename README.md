@@ -43,7 +43,7 @@ This section demonstrates **Create**, **Read**, **Update**, and **Delete** opera
 
 The `customers` collection uses JSON Schema validation to enforce minimal data consistency.
 
- - [View result](https://github.com/ChungmanPARK12/MongoDB/tree/f686f750e5a9eabd286b12c3beea851690ab4c9c/src/Validation)
+ - [View result](src/Validation)
 
 ### 3.Relation to Query Design, Indexing, and Sharding
 
