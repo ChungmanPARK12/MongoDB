@@ -37,7 +37,7 @@ Use the **Mongosh shell** to create collections and insert sample data.
 
 This section demonstrates **Create**, **Read**, **Update**, and **Delete** operations using MongoDB shell commands.
 
-- [View result](https://github.com/ChungmanPARK12/MongoDB/tree/7d3eb8fc607d82efde9a3b1576c97d8a71c6bcb5/src/CRUD)
+- [View result](src/CRUD)
 
 ### Schema Validation on `customers` Collection
 

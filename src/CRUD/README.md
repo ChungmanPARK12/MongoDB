@@ -15,7 +15,7 @@
 
 <img
   src="https://github.com/user-attachments/assets/8343cfd7-0b89-4403-9108-32067af674cd"
-  width="450"
+  width="600"
   alt="findOne"
 />
 
@@ -59,7 +59,7 @@
 ---
 
 ### `updateMany()`
-Updates **all documents** that match the filter.
+
 
 ```javascript
 db.customers.updateMany(
@@ -69,6 +69,38 @@ db.customers.updateMany(
 ```
 
 *Add a new field `customerCategory` as "Bronze" to customers who spend less than 200.*
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">
+        Updates all documents match the filter.
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+
+`db.customers.updateMany(
+  { customerId: { $in: ["C001", "C002", "C003"] } },
+  { $set: { customerCategory: "Bronze" } }
+)
+`
+<img
+  src="https://github.com/user-attachments/assets/226836df-153f-4e8f-b1d3-bd83026592fd"
+  width="600"
+  alt="UpdateMany true"
+/>
+
+<img
+  src="https://github.com/user-attachments/assets/bf1013a3-dc50-4670-a50b-ce770af77ad8"
+  width="600"
+  alt="Updated value"
+/>
+
+  </tbody>
+</table>
 
 ---
 
