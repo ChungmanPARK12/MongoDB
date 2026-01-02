@@ -1,7 +1,7 @@
 ## Sample Data Insertion
 
-Below is sample data inserted into MongoDB collections such as, 
-**customers**, **items**, **shopping_carts**, and **suppliers**.
+Below is sample data inserted collections such as, 
+**customers**, **items**, **suppliers**, and **shopping_carts**.
 
 <table>
   <thead>

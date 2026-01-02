@@ -1,26 +1,60 @@
 
-### `findOne()`
-Returns the first document that matches the query.
+<table>
+  <thead>
+    <tr>
+      <th align="center">
+        Returns the document that matches the query
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
 
-```javascript
-db.customers.findOne({ customerID: 1 });
-```
+'db.customers.findOne({ customerId: 'C001' });'
 
-*Find the customer with `customerID` 1.*
+<img
+  src="https://github.com/user-attachments/assets/8343cfd7-0b89-4403-9108-32067af674cd"
+  width="450"
+  alt="findOne"
+/>
+
+  </tbody>
+</table>
 
 ---
 
-### `updateOne()`
-Updates the **first matching** document.
+<table>
+  <thead>
+    <tr>
+      <th align="center">
+        Updates the matching document.
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
 
-```javascript
-db.customers.updateOne(
-  { customerID: 1 },
-  { $set: { email: "newemail@example.com" } }
-);
-```
+`db.customers.updateOne(
+  { customerId: 'C001' },
+  { $set: { email: "Jack.borwn@example.com" } }
+);`
 
-*Update the email of customer with `customerID` 1.*
+<img
+  src="https://github.com/user-attachments/assets/f9680f99-9e8a-466f-816e-a0b8f25cb90c"
+  width="600"
+  alt="Update true"
+/>
+
+<img
+  src="https://github.com/user-attachments/assets/7068b277-2d5b-4393-bb56-e4beec366648"
+  width="600"
+  alt="Updated value"
+/>
+
+  </tbody>
+</table>
 
 ---
 
