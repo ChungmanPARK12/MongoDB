@@ -13,7 +13,7 @@ Below is sample data inserted into MongoDB collections such as,
   </thead>
   <tbody>
     <tr>
-      <td>
+      <td align="center">
 
 `db.customers.insertMany()`
 
@@ -34,7 +34,7 @@ Below is sample data inserted into MongoDB collections such as,
 
 ---
 
-<table align="center">
+<table>
   <thead>
     <tr>
       <th align="center">
@@ -44,7 +44,7 @@ Below is sample data inserted into MongoDB collections such as,
   </thead>
   <tbody>
     <tr>
-      <td>
+      <td align="center">
 
 `db.items.insertMany()`
 
@@ -59,7 +59,7 @@ Below is sample data inserted into MongoDB collections such as,
 
 ---
 
-<table align="center">
+<table>
   <thead>
     <tr>
       <th align="center">
@@ -91,7 +91,7 @@ Below is sample data inserted into MongoDB collections such as,
 
 ---
 
-<table align="center">
+<table>
   <thead>
     <tr>
       <th align="center">
