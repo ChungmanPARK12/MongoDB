@@ -18,7 +18,7 @@ db.customers.getIndexes();
 ```
  - Displays all indexes currently defined on the `customers` collection, including the default `_id` index.
 
- <img width="450" height="150" alt="Image" src="https://github.com/user-attachments/assets/ba0f2ea8-e697-4ad2-be29-14cd2cf99301" />
+<img width="500" height="250" alt="Image" src="https://github.com/user-attachments/assets/99bbf27e-e834-4e24-9bfe-8e60cb16d869" />
 
 ---
 

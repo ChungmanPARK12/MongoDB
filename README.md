@@ -58,7 +58,7 @@ Joins `customers` and `shopping_Carts` collections to show cart details for cust
 
 ### Indexing on `customers`
 
-  - [View result](https://github.com/ChungmanPARK12/MongoDB/tree/e1f96a4ac7e926a50aa8e7746cb000a8b1d9e20c/src/Indexing)
+  - [View result](src/Indexing)
 
 ### Creating `ttlLogs` Collection with Schema Validation
 
