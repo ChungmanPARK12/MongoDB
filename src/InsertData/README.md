@@ -74,13 +74,13 @@ Below is sample data inserted collections such as,
 `db.suppliers.insertMany()`
 
 <img
-  src="https://github.com/user-attachments/assets/5ccf7f93-3ce6-4ae3-94cd-c00546706906"
+  src="https://github.com/user-attachments/assets/86f462e9-b5de-4b44-b7ac-a63972653034"
   width="600"
   alt="Suppliers sample insert result (documents 1–2)"
 />
 
 <img
-  src="https://github.com/user-attachments/assets/4fbef62f-a018-443f-9efa-1a17985253fb"
+  src="https://github.com/user-attachments/assets/166d0826-fe15-4b3d-b9f6-d974a7b7a3fb"
   width="600"
   alt="Suppliers sample insert result (documents 3–4)"
 />
