@@ -61,27 +61,27 @@ db.customers.aggregate([
 db.shopping_carts.aggregate([
   { $match: { cartId: 1 } },
 
-  // cart_items → items details
+  // cart_items -> items details
   {
     $lookup: {
       from: "items",
       let: { itemIds: "$cart_items.itemId" },
       pipeline: [
-        { $match: { $expr: { $in: ["$itemID", "$$itemIds"] } } },
-        { $project: { _id: 0, itemID: 1, itemName: 1, price: 1, supplierID: 1 } }
+        { $match: { $expr: { $in: ["$itemId", "$$itemIds"] } } },
+        { $project: { _id: 0, itemId: 1, itemName: 1, price: 1, supplierId: 1 } }
       ],
       as: "itemDetails"
     }
   },
 
-  // items.supplierId → suppliers details
+  // items.supplierId -> suppliers details
   {
     $lookup: {
       from: "suppliers",
       let: { supplierIds: "$itemDetails.supplierId" },
       pipeline: [
         { $match: { $expr: { $in: ["$supplierId", "$$supplierIds"] } } },
-        { $project: { _id: 0, supplierID: 1, supplierName: 1, email: 1 } }
+        { $project: { _id: 0, supplierId: 1, supplierName: 1, email: 1 } }
       ],
       as: "supplierDetails"
     }
@@ -100,6 +100,7 @@ db.shopping_carts.aggregate([
   }
 ]).pretty()
 
+
 ```
 
 <table>
@@ -117,7 +118,7 @@ db.shopping_carts.aggregate([
 `db.items.insertMany()`
 
 <img
-  src="https://github.com/user-attachments/assets/60305a31-f4ec-41f5-b8a0-6346e0913c6d"
+  src="https://github.com/user-attachments/assets/01cc81d5-d172-4c39-a38b-0e20748cb64d"
   width="450"
   alt="Items sample insert results (5 documents)"
 />
