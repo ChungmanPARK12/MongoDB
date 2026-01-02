@@ -74,7 +74,7 @@ TTL indexes are used to manage time-bound data by automatically removing documen
   - `readWriteAnyDatabase`: Read/write access to all DBs
   - `dbAdminAnyDatabase`: Admin functions like index creation
 
-  - [View result](https://github.com/ChungmanPARK12/MongoDB/tree/6d92d0014b92eacb5381169a0fc7bd43fcda9521/src/CreateUser)
+  - [View result](src/CreateUser)
 
 ## Summary
 

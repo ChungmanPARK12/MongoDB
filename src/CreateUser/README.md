@@ -18,7 +18,9 @@ db.createUser({
 ```
 ---
 
-The following command creates a user named `JimBrown` with **read-only access** to the `shoppingCartDB` database.
+### Read-Only User(Database-Level-Access)
+
+A user named `JimBrown` with read-only access to the `shoppingCartDB` database.
 
 ```javascript
 db.createUser({
