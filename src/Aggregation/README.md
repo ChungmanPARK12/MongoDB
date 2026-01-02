@@ -48,7 +48,7 @@ db.customers.aggregate([
 
 <img
   src="https://github.com/user-attachments/assets/60305a31-f4ec-41f5-b8a0-6346e0913c6d"
-  width="450"
+  width="700"
   alt="Items sample insert results (5 documents)"
 />
 
@@ -119,7 +119,7 @@ db.shopping_carts.aggregate([
 
 <img
   src="https://github.com/user-attachments/assets/01cc81d5-d172-4c39-a38b-0e20748cb64d"
-  width="450"
+  width="700"
   alt="Items sample insert results (5 documents)"
 />
 
