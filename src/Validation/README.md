@@ -64,6 +64,8 @@ db.createCollection("customers", {
 
 ---
 
+### Validation Failed (Required Field Missing)
+
 ```javascript
 db.customers.insertOne({
   customerId: "C001",
@@ -75,7 +77,7 @@ db.customers.insertOne({
   <thead>
     <tr>
       <th align="center">
-        Missing email
+         Insert failed because the required field "email" is missing
       </th>
     </tr>
   </thead>
@@ -92,6 +94,8 @@ db.customers.insertOne({
   </tbody>
 </table>
 
+### Validation Passed (Required Fields Only)
+
 ```javascript
 db.customers.insertOne({
   customerId: "C001",
@@ -100,35 +104,11 @@ db.customers.insertOne({
 })
 ```
 
-### Validation Failed (Required Field Missing)
 <table>
   <thead>
     <tr>
       <th align="center">
-        Insert failed because the required field "email" is missing
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">
-
-<img
-  src="https://github.com/user-attachments/assets/bda43865-4733-4771-afb2-fa24762c6b78"
-  width="600"
-  alt="Validation false"
-/>
-
-  </tbody>
-</table>
-
-### Validation Passed (Required Fields Only)
-
-<table>
-  <thead>
-    <tr>
-      <th align="center">
-        Insert succeeded with only the required fields provided
+       Insert succeeded with only the required fields provided
       </th>
     </tr>
   </thead>
@@ -144,3 +124,4 @@ db.customers.insertOne({
 
   </tbody>
 </table>
+
