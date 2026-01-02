@@ -1,17 +1,20 @@
+### findOne()
+
+```javascript
+db.customers.findOne({ customerId: 'C001' });
+```
 
 <table>
   <thead>
     <tr>
       <th align="center">
-        Returns the document that matches the query
+        Returns the document matching customerId: 'C001'
       </th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td align="center">
-
-'db.customers.findOne({ customerId: 'C001' });'
 
 <img
   src="https://github.com/user-attachments/assets/8343cfd7-0b89-4403-9108-32067af674cd"
@@ -24,22 +27,26 @@
 
 ---
 
+### updateOne()
+
+```javascript
+db.customers.updateOne(
+  { customerId: 'C001' },
+  { $set: { email: "Jack.borwn@example.com" } }
+);
+```
+
 <table>
   <thead>
     <tr>
       <th align="center">
-        Updates the matching document.
+        Updates the email for customerId: 'C001'
       </th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td align="center">
-
-`db.customers.updateOne(
-  { customerId: 'C001' },
-  { $set: { email: "Jack.borwn@example.com" } }
-);`
 
 <img
   src="https://github.com/user-attachments/assets/f9680f99-9e8a-466f-816e-a0b8f25cb90c"
@@ -60,21 +67,18 @@
 
 ### `updateMany()`
 
-
 ```javascript
 db.customers.updateMany(
-  { annualSpend: { $lt: 200 } },
+  { customerId: { $in: ["C001", "C002", "C003"] } },
   { $set: { customerCategory: "Bronze" } }
-);
+)
 ```
-
-*Add a new field `customerCategory` as "Bronze" to customers who spend less than 200.*
 
 <table>
   <thead>
     <tr>
       <th align="center">
-        Updates all documents match the filter.
+        Updates customerCategory for matched customerIds
       </th>
     </tr>
   </thead>
@@ -82,11 +86,6 @@ db.customers.updateMany(
     <tr>
       <td align="center">
 
-`db.customers.updateMany(
-  { customerId: { $in: ["C001", "C002", "C003"] } },
-  { $set: { customerCategory: "Bronze" } }
-)
-`
 <img
   src="https://github.com/user-attachments/assets/226836df-153f-4e8f-b1d3-bd83026592fd"
   width="600"
@@ -105,24 +104,60 @@ db.customers.updateMany(
 ---
 
 ### `deleteOne()`
-Deletes the **first matching** document.
 
 ```javascript
-db.customers.deleteOne({ customerID: 3 });
+db.customers.deleteOne({ customerId: 'C001' });
 ```
 
-*Delete the customer with `customerID` 3.*
+<table>
+  <thead>
+    <tr>
+      <th align="center">
+        Deletes the document matching customerId: 'C001'
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+
+<img
+  src="https://github.com/user-attachments/assets/4565cfb5-bbee-4dff-b718-1f9850949b8e"
+  width="600"
+  alt="UpdateMany true"
+/>
+
+  </tbody>
+</table>
 
 ---
 
 ### `deleteMany()`
-Deletes **all documents** that match the filter.
 
 ```javascript
-db.customers.deleteMany({ annualSpend: { $lt: 150 } });
+db.customers.deleteMany({ customerCategory: "Bronze" })
 ```
 
-*Delete all customers whose `annualSpend` is less than 150.*
+<table>
+  <thead>
+    <tr>
+      <th align="center">
+        Delete multiple customer documents by customerCategory
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+
+<img
+  src="https://github.com/user-attachments/assets/5c10fffc-8b9a-46c8-b5c6-6c8448206bca"
+  width="600"
+  alt="UpdateMany true"
+/>
+
+  </tbody>
+</table>
 
 ---
 
