@@ -107,7 +107,7 @@ db.shopping_carts.aggregate([
   <thead>
     <tr>
       <th align="center">
-        Join 
+      Lookup result: Shopping cart cartId = 1 with customerId, joined with related items and their corresponding suppliers
       </th>
     </tr>
   </thead>
