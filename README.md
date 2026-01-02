@@ -54,17 +54,17 @@ The `customers` collection uses JSON Schema validation to enforce minimal data c
 ### Aggregation with `$lookup`
 
 Joins `customers` and `shopping_Carts` collections to show cart details for customer with `customerID: 2`.
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/e1f96a4ac7e926a50aa8e7746cb000a8b1d9e20c/src/Aggregation)
+  - [View result](src/Aggregation)
 
 ### Indexing on `customers`
 
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/e1f96a4ac7e926a50aa8e7746cb000a8b1d9e20c/src/Indexing)
+  - [View result](https://github.com/ChungmanPARK12/MongoDB/tree/e1f96a4ac7e926a50aa8e7746cb000a8b1d9e20c/src/Indexing)
 
 ### Creating `ttlLogs` Collection with Schema Validation
 
 This section demonstrates how a `ttlLogs` collection is defined with schema validation and prepared for use with a TTL index.
 
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/b0d517ee442a678dd03653d441872363aa177f82/src/ttlLog)
+  - [View result](https://github.com/ChungmanPARK12/MongoDB/tree/b0d517ee442a678dd03653d441872363aa177f82/src/ttlLog)
 
 ### 4.User Access Control
 

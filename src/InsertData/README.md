@@ -18,7 +18,7 @@ Below is sample data inserted collections such as,
 `db.customers.insertMany()`
 
 <img
-  src="https://github.com/user-attachments/assets/6fa12b03-3633-48e1-9e4e-e9d316c439af"
+  src="https://github.com/user-attachments/assets/d46c8329-6c7d-4a64-a4e6-3289cc4d63b6"
   width="600"
   alt="Customers sample insert result (documents 1–2)"
 />
@@ -49,7 +49,7 @@ Below is sample data inserted collections such as,
 `db.items.insertMany()`
 
 <img
-  src="https://github.com/user-attachments/assets/3ec9895c-2ec3-435f-9516-1c998193c479"
+  src="https://github.com/user-attachments/assets/4985e0a8-0083-4132-a45f-7a14914d952d"
   width="450"
   alt="Items sample insert results (5 documents)"
 />
@@ -74,7 +74,7 @@ Below is sample data inserted collections such as,
 `db.suppliers.insertMany()`
 
 <img
-  src="https://github.com/user-attachments/assets/f779e242-b4cc-4791-b6eb-8586563ce311"
+  src="https://github.com/user-attachments/assets/5ccf7f93-3ce6-4ae3-94cd-c00546706906"
   width="600"
   alt="Suppliers sample insert result (documents 1–2)"
 />
@@ -95,7 +95,7 @@ Below is sample data inserted collections such as,
   <thead>
     <tr>
       <th align="center">
-        shopping_Carts – Sample insert results (5 documents)
+        shopping_carts – Sample insert results (5 documents)
       </th>
     </tr>
   </thead>
@@ -103,10 +103,10 @@ Below is sample data inserted collections such as,
     <tr>
       <td align="center">
 
-`db.shopping_Carts.insertMany()`
+`db.shopping_carts.insertMany()`
 
 <img
-  src="https://github.com/user-attachments/assets/529f431b-4714-41f7-a7cc-4cb41ec4868d"
+  src="https://github.com/user-attachments/assets/aecd8ab3-d7ea-44e0-bc11-bd1d6fa019a2"
   width="600"
   alt="Shopping carts sample insert results (5 documents)"
 />

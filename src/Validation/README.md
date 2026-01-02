@@ -108,7 +108,7 @@ db.customers.insertOne({
   <thead>
     <tr>
       <th align="center">
-       Insert succeeded with only the required fields provided
+       Successfuly inserted with only the required fields provided
       </th>
     </tr>
   </thead>
