@@ -42,10 +42,12 @@ db.ttlLogs.createIndex(
 
 ### Inserting a Sample Log Entry
 ```javascript
+db.customers.deleteOne({ customerId: "C101" });
+
 db.ttlLogs.insertOne({
   loggingDateTime: new Date(),
-  transactionType: "insert",
-  logMessage: "inserted document into customers collection"
+  transactionType: "delete",
+  logMessage: "Customer C101 deleted"
 });
 ```
 

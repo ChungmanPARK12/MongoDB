@@ -53,7 +53,8 @@ The `customers` collection uses JSON Schema validation to enforce minimal data c
 
 ### Aggregation with `$lookup`
 
-Joins `customers` and `shopping_Carts` collections to show cart details for customer with `customerID: 2`.
+Demonstrates the use of `$lookup` to join selected collections and retrieve information associated with customers.
+
   - [View result](src/Aggregation)
 
 ### Indexing on `customers`
@@ -62,9 +63,9 @@ Joins `customers` and `shopping_Carts` collections to show cart details for cust
 
 ### Creating `ttlLogs` Collection with Schema Validation
 
-This section demonstrates how a `ttlLogs` collection is defined with schema validation and prepared for use with a TTL index.
+TTL indexes are used to manage time-bound data by automatically removing documents after a defined lifespan, making them suitable for logs, sessions, caches, and other temporary data.
 
-  - [View result](https://github.com/ChungmanPARK12/MongoDB/tree/b0d517ee442a678dd03653d441872363aa177f82/src/ttlLog)
+  - [View result](src/ttlLog)
 
 ### 4.User Access Control
 
@@ -73,7 +74,7 @@ This section demonstrates how a `ttlLogs` collection is defined with schema vali
   - `readWriteAnyDatabase`: Read/write access to all DBs
   - `dbAdminAnyDatabase`: Admin functions like index creation
 
-  - **View Code:** [Click here](https://github.com/ChungmanPARK12/MongoDB/tree/6d92d0014b92eacb5381169a0fc7bd43fcda9521/src/CreateUser)
+  - [View result](https://github.com/ChungmanPARK12/MongoDB/tree/6d92d0014b92eacb5381169a0fc7bd43fcda9521/src/CreateUser)
 
 ## Summary
 

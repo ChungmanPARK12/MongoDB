@@ -1,4 +1,7 @@
-Example:
+### Administrative User(Global Privileges)
+
+An administrative user with global privileges, allowing user management and full read/write access across all databases.
+
 ```javascript
 use admin
 
@@ -26,5 +29,4 @@ db.createUser({
   ]
 });
 ```
-
-
+---
